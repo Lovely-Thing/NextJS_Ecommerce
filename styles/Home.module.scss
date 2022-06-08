@@ -1,0 +1,19 @@
+@import "variable"; 
+
+
+.has_catsidebar {
+  display: flex;
+  justify-content:space-between;
+}
+
+.category_sidebar {
+  width: 264px;
+}
+
+.category_products {
+  width: calc(100% - 294px);
+  transition:  margin-bottom 0.3s;
+
+}
+
+ 

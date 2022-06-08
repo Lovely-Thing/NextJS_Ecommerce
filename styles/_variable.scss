@@ -1,0 +1,73 @@
+
+// Responsive Breakpoints
+$breakpoints: (
+'max1265':  'only screen and (max-width: 1265px)', 
+'max1200':  'only screen and (max-width: 1200px)',  
+'max1124':  'only screen and (max-width: 1124px)', 
+'max1024':  'only screen and (max-width: 1024px)', 
+'sp':       'only screen and (max-width: 768px)', 
+'tb':       'only screen and (max-width: 991px)', 
+'tc':       'only screen and (min-width: 992px)', 
+'pc':       'only screen and (min-width: 769px)'
+) !default;
+
+
+
+@mixin media($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+
+@font-face {
+  font-family: 'Altone_nomal';
+  src: url('../public/font/altone/AltoneTrial-Regular.ttf');
+}
+  
+// Global Font 
+$font_inter: 'Inter', sans-serif;
+$font_altone_nomal: 'Altone_nomal';
+
+// Font Size
+$size_10: 10px; 
+$size_12: 12px; 
+$size_14: 14px; 
+$size_16: 16px;
+$size_18: 18px;
+$size_20: 20px;
+$size_24: 24px;
+$size_28: 28px;
+$size_40: 40px; 
+
+// Line Height
+$heigh_14: 14px;
+$heigh_19: 19px;
+$heigh_20: 20px;
+$heigh_21: 21px;
+$heigh_22: 22px;
+$heigh_23: 23px;
+$heigh_24: 24px;
+$heigh_28: 28px;
+$heigh_36: 36px;
+$heigh_40: 40px;
+$heigh_48: 48px;
+
+
+// Color
+$color_BC2: #BC2B2B;
+$color_FFF: #FFFFFF;
+$color_343: #344362;
+$color_F2F: #F2F3F4;
+$color_9CA: #9CA5B6;
+$color_3A4: #3A4B6D;
+$color_7E8: #7E858E;
+$color_696: #696E79;
+$color_000: #000000;
+$color_373: #373D4C;
+$color_FAF: #FAFAFA;
+$color_1E2: #1E2535;
+$color_F8F: #F8F8F8;
+$color_484: #484848;
+$color_252: #252f44;
+$color_F1F: #F1F1F1
