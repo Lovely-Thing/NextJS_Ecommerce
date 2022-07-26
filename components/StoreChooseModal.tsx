@@ -41,7 +41,7 @@ export default function StoreChooseModal(props:any) {
         try {
             let map:any;
             const loader = new Loader({
-                apiKey: "AIzaSyB-2uhGGdZfbOcJ6xcUeqgQSIbG4HcWx4Q",
+                apiKey: "",
                 version: "weekly",  
                 libraries:  ['places']
             });    

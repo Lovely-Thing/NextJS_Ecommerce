@@ -45,7 +45,7 @@ export default function CardForAddDeliveryAddress(props:any) {
         try {
             let map:any, autocomplete: google.maps.places.Autocomplete;
             const loader = new Loader({
-                apiKey: "AIzaSyB-2uhGGdZfbOcJ6xcUeqgQSIbG4HcWx4Q",
+                apiKey: "",
                 version: "weekly",  
                 libraries:  ['places']
             });    
